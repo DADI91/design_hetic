@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom left, #aac6e7 -6%, #063875 100%);
+}
+
+.container {
+    height: 890px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-connexion{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 39px;
+    padding: 20px 53px;
+    width: 530px;
+    margin: auto;
+    margin-top: 180px;
+
+}
+
+.box-inscription {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 39px;
+    padding: 20px 53px;
+    width: 530px;
+    margin: auto;
+    margin-top: 110px;
+
+}
+
+.input-confirm-mdp {
+    margin-bottom: 55px;
+}
+
+.submit-form {
+    display: block;
+   width: 93px;
+   height: 30px;
+   margin: 0 auto 46px auto;
+}
+
+input {
+    border-radius: 5px;
+    width: 479px;
+    height: 46px;
+}
