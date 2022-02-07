@@ -1,5 +1,12 @@
+:root {
+    --color_fond1: #aac6e7 ;
+    --color_fond2: #063875 ;
+
+  }
+
+
 body {
-    background: linear-gradient(to bottom left, #aac6e7 -6%, #063875 100%);
+    background: linear-gradient(to bottom left, var(--color_fond1) -6%, var(--color_fond2) 100%);
 }
 
 .container {
@@ -34,9 +41,9 @@ body {
 
 .submit-form {
     display: block;
-   width: 93px;
-   height: 30px;
-   margin: 0 auto 46px auto;
+    width: 93px;
+    height: 30px;
+    margin: 0 auto 46px auto;
 }
 
 input {
